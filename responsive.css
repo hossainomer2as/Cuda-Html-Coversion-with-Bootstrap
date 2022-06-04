@@ -1,0 +1,40 @@
+/* for 1200px */
+@media only screen and (min-width:200px) and (max-width:1199px) {
+    .data {
+
+        left: 8rem;
+
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:991px) {
+    .data {
+
+        left: 13rem;
+
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:770px) {
+    .data {
+
+        left: 9rem;
+
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:575px) {
+    .data {
+
+        left: 23rem;
+
+    }
+}
+@media only screen and (min-width:200px) and (max-width:500px) {
+    .data {
+
+        left: 18rem;
+
+    }
+}
+

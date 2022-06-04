@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common css */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+li {
+    margin-left: 2rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width: 9rem;
+    margin: 3rem auto;
+    border: 2px solid #000;
+}
+
+
+
+/* header_area css */
+#header_area {
+    background: linear-gradient(#87509ce8, #87509ce8), url(images/header02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+.inner_header {
+    padding: 6rem 0;
+
+}
+
+.inner_header ul li {
+    padding: .5rem 1.5rem;
+    border-radius: .8rem;
+
+    text-transform: uppercase;
+    margin: 2rem 1rem;
+    transition: .5s;
+}
+
+
+.inner_header ul a li {
+    font-size: 1.6rem;
+    color: #fff;
+
+}
+
+.inner_header ul li:hover {
+    background-color: #643A79;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.header_text {
+    text-align: center;
+    color: #fff;
+}
+
+.header_text h1 {
+    font-size: 4.2rem;
+    font-weight: bold;
+    margin-top: 14rem;
+    margin-bottom: 6rem;
+
+}
+
+.btn {
+    padding: 1.375rem 4.75rem;
+    background-color: #77f58c;
+    font-weight: bold;
+    margin-bottom: 90px;
+    font-size: 1.6rem;
+}
+
+.btn-danger {
+    background-color: #EB7D4B;
+}
+
+/* header_area_end */
+
+/* service_area_start */
+#service_area {
+    background: linear-gradient(#17c2a3d3, #17c2a3d3), url(images/service-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #fff;
+}
+
+.inner_servics {
+    padding: 6rem 0;
+}
+
+.service_text h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+}
+
+.service_text p {
+    font-size: 1.8rem;
+    margin-bottom: 9rem;
+
+}
+
+.child_service h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-top: 6.5rem;
+    margin-bottom: 3rem;
+
+
+
+}
+
+.child_service p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+/* service_area_end */
+
+
+/* skills_area_start */
+#skills_area {
+    background: linear-gradient(#e7f1f8d5, #e7f1f8d5), url(images/architect.jpg);
+    padding: 6rem 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.skills_text {
+    color: #000;
+    text-align: center;
+}
+
+.skills_text h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+}
+
+.skills_text hr {
+    border-color: #9eabb4;
+}
+
+.skills_text p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.child_skills {
+    text-align: center;
+}
+
+.child_skills img {
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.child_skills a {
+    display: block;
+    padding: 2rem 0;
+    font-size: 1.6rem;
+    color: #30BAE7;
+}
+
+.child_skills p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.child_skills ul li {
+    background-color: #BDD1DF;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    transition: .5s;
+}
+
+.social_icon {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.social_icon ul li a {
+    padding: .2rem 0;
+    color: #FFFFFF;
+}
+
+.social_icon ul li:hover {
+    background-color: orange;
+}
+
+.social_icon ul li a:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+/* skills_area_end */
+/* testimonil_area_start */
+#testimonil_area {
+    background: linear-gradient(#ffffffed, #ffffffed), url(images/slider02.jpg);
+    padding: 9rem 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.testi_text {
+    text-align: center;
+}
+
+.testi_text hr {
+    border-color: #a7aaac;
+}
+
+.testi_text h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+}
+
+.testi_text p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.text {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+
+}
+
+.text h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.circle,
+.circle1,
+.circle2,
+.circle3 {
+    position: relative;
+    text-align: center;
+}
+
+.data {
+    position: absolute;
+    top: 5rem;
+    left: 10rem;
+    font-size: 5rem;
+
+
+}
+
+/* testimonil_area_end */
+
+/* portfolio_area_start */
+
+#portfolio {
+    background: linear-gradient(#ffdd99ea, #ffdd99ea), url(images/portfolio.jpg);
+    padding: 9rem 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.inner_portfolio p {
+    font-size: 2rem;
+    margin-top: 3.5rem;
+    margin-bottom: 6.7rem;
+
+
+}
+
+.inner_portfolio .btn {
+    background: #17C2A4;
+    color: #fff;
+    font-size: 1.9rem;
+    box-shadow: 0px 3px #14A58C;
+    border: 0px solid;
+}
+
+.portfolio_text h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-align: center;
+}
+
+.portfolio_text hr {
+    border-color: #6f7477;
+}
+
+.portfolio_text p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.potrfolio_link button {}
+
+.potrfolio_link button {
+
+    text-transform: uppercase;
+    margin: 5rem 0;
+    font-size: 1.8rem;
+    display: inline-block;
+    background: #EBC985;
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    transition: .5s;
+    margin-left: 1rem;
+    border: 0px solid;
+
+}
+
+.potrfolio_link button:hover {
+    background: #fff;
+}
+
+.potrfolio_link ul li a {
+    color: #000;
+}
+
+.portfolio_image {
+    overflow: hidden;
+    width: 80%;
+}
+
+.potrfolio_link.mixitup-control-active {
+    background: #fff;
+}
+
+/* portfolio_area_end */
+
+/*pepole_area_start */
+
+#pepole {
+    background: linear-gradient(#d74680d8, #d74680d8), url(images/natural.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 9rem 0;
+    color: #fff;
+}
+
+.pepole_text {
+    text-align: center;
+
+}
+
+.pepole_text h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+
+}
+
+.pepole_text p {
+    font-size: 1.8rem;
+    margin-bottom: 8rem;
+    letter-spacing: 0.1rem;
+}
+
+.child_pepole img {
+    width: 10rem;
+    float: left;
+    margin-bottom: 24rem;
+    margin-right: 5rem;
+
+
+}
+
+.child_pepole p {
+    font-size: 2.4rem;
+    font-style: italic;
+    font-weight: 200;
+
+}
+
+.child_pepole h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+.child_pepole a {
+    color: #FFDD99;
+    font-size: 1.9rem;
+}
+
+/*pepole_area_end*/
+
+/*touch_area_start*/
+
+#touch {
+    background: linear-gradient(#3c5399d8, #3c5399d8), url(images/natural02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 9rem 0;
+    color: #fff;
+}
+
+.touch_text {
+    text-align: center;
+}
+
+.touch_text h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+}
+
+.touch_text p {
+    font-size: 1.8rem;
+    margin-bottom: 8rem;
+    letter-spacing: 0.1rem;
+}
+
+.touch_input {
+    text-align: center;
+}
+
+.touch_input input {
+    width: 40%;
+    font-size: 1.8rem;
+    padding: 1rem 5rem;
+    margin-left: 2rem;
+    background: #273A71;
+    border: 0px solid;
+    color: #fff;
+    border-radius: 8px;
+
+}
+
+
+.text_area {
+
+    padding-top: 3rem;
+
+}
+
+.text_area textarea {
+    background: #273A71;
+    border: 0px solid;
+    width: 83%;
+    margin-left: 1.8rem;
+    padding: 1.5rem 6rem;
+    text-transform: capitalize;
+    border-radius: 8px;
+}
+
+.text_area textarea::placeholder {
+    color: #fff;
+    opacity: 1;
+    font-size: 1.8rem;
+    padding-left: 1.5rem;
+}
+
+.touch_input input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.touch_input button {
+    background: #30BAE7;
+    margin-top: 6rem;
+    padding: 1.5rem 10rem;
+    box-shadow: 0px 5px #299EC5;
+    color: #fff;
+}
+
+/*touch_area_end*/
+/*footer_area_start*/
+
+#footer_area {
+    background-color: #344B8E;
+    padding: 5rem 0;
+
+}
+
+.footer_link ul {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.footer_link ul li {
+    display: inline-block;
+    margin: 0 2rem;
+}
+
+.footer_link ul li a {
+    color: #fff;
+    transition: .5s;
+}
+
+.footer_link ul li a:hover {
+    color: #30BAE7;
+}
